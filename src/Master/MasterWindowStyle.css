@@ -1,19 +1,10 @@
-/*
-color       Hex	        RGB
-green       #878658	    (135,134,88)
-med dark    #565546	    (86,85,70)
-med light   #b4b3a3	    (180,179,163)
-darkest     #4a4b43	    (74,75,67)
-lightest    #e1dbc4	  asdf  (225,219,196)*/
 
 #MasterBorderPane{
     -fx-background-color: #111111;
     -fx-border-insets: 10,10,10,10;
     -fx-border-color: #111111;
 }
-#MasterContentPane{
-    -fx-background-color: #272729;
-}
+
 #MasterMenuBar{
     -fx-background-color: #b8d4ef;
 }
@@ -39,6 +30,6 @@ lightest    #e1dbc4	  asdf  (225,219,196)*/
 #ProjectChoiceLabel{
     -fx-text-fill: #c8e4ff;
 }
-.pane{
-    -fx-background-color: #c8e4ff;
+#MasterContentPane{
+    -fx-background-color: #999999;
 }

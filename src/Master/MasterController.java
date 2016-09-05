@@ -1,19 +1,48 @@
 package Master;
 
-import javafx.scene.control.TabPane;
-import javafx.scene.control.TableView;
+import ContentPanes.JavaFX_Practice_01;
+import javafx.scene.control.*;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
-public class MasterController extends Main{
+import javafx.scene.layout.VBox;
+
+public class MasterController extends Master.Main {
+
+    public BorderPane MasterBorderPane;
+    public VBox MasterTitleVBox;
+    public Label MasterLabel;
+    public Label MasterProjectChoiceLabel;
+    public MenuBar MasterMenuBar;
+    public Menu MasterMenu285;
+    public Menu HomeworkMenu285;
+    public MenuItem HomeworkMenu285Item1;
+    public Menu PracticekMenu285;
+    public MenuItem PracticeMenu285Item1;
+    public Menu MasterMenu406;
+    public Menu ThreadPracticeMenu406;
+    public MenuItem ThreadPractice406Item1;
+    
+
+    //not yet implemented
     public void Homework01Click(){
         MasterContentPane= new StackPane();
         MasterContentPane.getChildren().add(new TableView<>());
-        root.setCenter(Main.MasterContentPane);
+        root.setCenter(MasterContentPane);
     }
+    //not yet attempted
     public void ThreadPractice01Click(){
         MasterContentPane= new StackPane();
-        TabPane tabPane = new TabPane();
-        tabPane.setStyle("-fx-background-color: #08a4ff");
-        MasterContentPane.getChildren().add(tabPane);
-        root.setCenter(Main.MasterContentPane);
+        TabPane pane = new TabPane();
+        pane.setStyle("-fx-background-color: #999999");
+        MasterContentPane.getChildren().add(pane);
+        root.setCenter(MasterContentPane);
+    }
+    //first implementation
+    public void Practice01Click() {
+        MasterContentPane= new StackPane();
+        BorderPane pane = new JavaFX_Practice_01().pane;
+        pane.setStyle("-fx-background-color: #111111");
+        MasterContentPane.getChildren().add(pane);
+        root.setCenter(MasterContentPane);
     }
 }

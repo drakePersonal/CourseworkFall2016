@@ -5,48 +5,43 @@
 
 <BorderPane fx:id="MasterBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@MasterWindowStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Master.MasterController">
    <top>
-      <VBox fx:id="MasterTitleVBox" BorderPane.alignment="CENTER">
-         <children>
-            <Label fx:id="MasterLabel" text="Master">
-               <font>
-                  <Font name="Gabriola" size="36.0" />
-               </font>
-               <padding>
-                  <Insets left="20.0" />
-               </padding>
-            </Label>
-            <Label id="ProjectChoiceLabel" fx:id="MasterProjectChoiceLabel" text="Chose A Project">
-               <font>
-                  <Font name="Gabriola" size="18.0" />
-               </font>
-               <padding>
-                  <Insets left="50.0" />
-               </padding>
-            </Label>
-            <MenuBar fx:id="MasterMenuBar">
-              <menus>
-                <Menu fx:id="MasterMenu285" mnemonicParsing="false" text="CSC285">
-                     <items>
-                        <Menu fx:id="HomeworkMenu285" mnemonicParsing="false" text="Homework">
-                          <items>
-                            <MenuItem id="HomeworkMenu1" fx:id="HomeworkMenu285Item1" mnemonicParsing="false" onAction="#Homework01Click" text="Homework_01" />
-                          </items>
-                        </Menu>
-                     </items>
-                </Menu>
-                <Menu fx:id="MasterMenu406" mnemonicParsing="false" text="CSC406">
-                  <items>
-                        <Menu fx:id="ThreadPracticeMenu406" mnemonicParsing="false" text="Thread Practice">
-                          <items>
-                            <MenuItem id="ThreadPracticeMenu01" fx:id="ThreadPractice406Item1" mnemonicParsing="false" onAction="#ThreadPractice01Click" text="ThreadPractice_01" />
-                          </items>
-                        </Menu>
-                  </items>
-                </Menu>
-              </menus>
-            </MenuBar>
-         </children>
-      </VBox>
+       <VBox fx:id="MasterTitleVBox" BorderPane.alignment="CENTER">
+           <Label fx:id="MasterLabel" text="Master">
+              <font>
+                  <Font name="Gabriola" size="36.0"/>
+              </font>
+              <padding>
+                  <Insets left="20.0"/>
+              </padding>
+           </Label>
+           <Label id="ProjectChoiceLabel" fx:id="MasterProjectChoiceLabel" text="Chose A Project">
+              <font>
+                  <Font name="Gabriola" size="18.0"/>
+              </font>
+              <padding>
+                  <Insets left="50.0"/>
+              </padding>
+           </Label>
+           <MenuBar fx:id="MasterMenuBar">
+               <Menu fx:id="MasterMenu285" mnemonicParsing="false" text="CSC285">
+                   <Menu fx:id="HomeworkMenu285" mnemonicParsing="false" text="Homework">
+                       <MenuItem id="HomeworkMenu1" fx:id="HomeworkMenu285Item1" mnemonicParsing="false"
+                                 onAction="#Homework01Click" text="Homework_01"/>
+                   </Menu>
+                   <Menu fx:id="PracticekMenu285" mnemonicParsing="false" text="Practice">
+                       <MenuItem id="HomeworkMenu1" fx:id="PracticeMenu285Item1" mnemonicParsing="false"
+                                 onAction="#Practice01Click" text="Practice_01"/>
+                   </Menu>
+               </Menu>
+               <Menu fx:id="MasterMenu406" mnemonicParsing="false" text="CSC406">
+                   <Menu fx:id="ThreadPracticeMenu406" mnemonicParsing="false" text="Thread Practice">
+                       <MenuItem id="ThreadPracticeMenu01" fx:id="ThreadPractice406Item1"
+                                 mnemonicParsing="false" onAction="#ThreadPractice01Click"
+                                 text="ThreadPractice_01"/>
+                   </Menu>
+               </Menu>
+           </MenuBar>
+       </VBox>
    </top>
    <center>
       <StackPane id="MasterContentPane" fx:id="MasterContentPane" BorderPane.alignment="CENTER">
