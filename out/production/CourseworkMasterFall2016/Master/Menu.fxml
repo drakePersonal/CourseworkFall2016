@@ -1,8 +1,9 @@
+<!--"Scene design information for the Master Scene MasterBorderPane"-->
+
 <?import javafx.scene.text.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-
 <BorderPane fx:id="MasterBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@MasterWindowStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Master.MasterController">
    <top>
        <VBox fx:id="MasterTitleVBox" BorderPane.alignment="CENTER">
@@ -28,7 +29,7 @@
                        <MenuItem id="HomeworkMenu1" fx:id="HomeworkMenu285Item1" mnemonicParsing="false"
                                  onAction="#Homework01Click" text="Homework_01"/>
                    </Menu>
-                   <Menu fx:id="PracticekMenu285" mnemonicParsing="false" text="Practice">
+                   <Menu fx:id="PracticekMenu285" mnemonicParsing="false" text="FXPractice">
                        <MenuItem id="HomeworkMenu1" fx:id="PracticeMenu285Item1" mnemonicParsing="false"
                                  onAction="#Practice01Click" text="Practice_01"/>
                    </Menu>
@@ -47,6 +48,7 @@
       <StackPane id="MasterContentPane" fx:id="MasterContentPane" BorderPane.alignment="CENTER">
          <BorderPane.margin>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-         </BorderPane.margin></StackPane>
+         </BorderPane.margin>
+      </StackPane>
    </center>
 </BorderPane>
