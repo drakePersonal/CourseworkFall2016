@@ -7,7 +7,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-
+//added comment to test committing
 public class Main extends Application {
     static Pane MasterContentPane;
     static Scene MasterScene;
