@@ -617,7 +617,7 @@
       <updated>1473047666893</updated>
       <workItem from="1473047671569" duration="182000" />
       <workItem from="1473048892248" duration="290000" />
-      <workItem from="1473051127495" duration="332000" />
+      <workItem from="1473051127495" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="test intelliJ">
       <created>1473051307184</created>
@@ -633,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473051385791</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test intelliJ3">
+      <created>1473051471709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1473051471709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="804000" />
+    <option name="totallyTimeSpent" value="889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -679,7 +686,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test intelliJ" />
     <MESSAGE value="test intelliJ2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test intelliJ2" />
+    <MESSAGE value="test intelliJ3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test intelliJ3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
