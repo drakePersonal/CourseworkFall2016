@@ -7,18 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04631570-0b08-4b9a-a432-18c477d7b9bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ContentPanes/JavaFX_Practice_01.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/CourseworkMasterFall2016_jar/CourseworkMasterFall2016.jar" afterPath="$PROJECT_DIR$/out/artifacts/CourseworkMasterFall2016_jar/CourseworkMasterFall2016.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/Main.class" afterPath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/MasterController.class" afterPath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/MasterController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/MasterWindowStyle.css" afterPath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/MasterWindowStyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/Menu.fxml" afterPath="$PROJECT_DIR$/out/production/CourseworkMasterFall2016/Master/Menu.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Master/Main.java" afterPath="$PROJECT_DIR$/src/Master/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Master/MasterController.java" afterPath="$PROJECT_DIR$/src/Master/MasterController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Master/MasterWindowStyle.css" afterPath="$PROJECT_DIR$/src/Master/MasterWindowStyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Master/Menu.fxml" afterPath="$PROJECT_DIR$/src/Master/Menu.fxml" />
     </list>
     <ignored path="CourseworkMasterFall2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -675,7 +669,7 @@
       <updated>1473047666893</updated>
       <workItem from="1473047671569" duration="182000" />
       <workItem from="1473048892248" duration="290000" />
-      <workItem from="1473051127495" duration="4835000" />
+      <workItem from="1473051127495" duration="4894000" />
     </task>
     <task id="LOCAL-00001" summary="test intelliJ">
       <created>1473051307184</created>
@@ -712,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473051751352</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added project JavaFX_Practice_01">
+      <created>1473056009101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1473056009101</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5307000" />
+    <option name="totallyTimeSpent" value="5366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -761,7 +762,8 @@
     <MESSAGE value="test intelliJ3" />
     <MESSAGE value="test intelliJ4" />
     <MESSAGE value="test intelliJ for comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="test intelliJ for comment" />
+    <MESSAGE value="added project JavaFX_Practice_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project JavaFX_Practice_01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
