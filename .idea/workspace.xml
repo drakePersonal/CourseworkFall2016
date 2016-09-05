@@ -669,7 +669,7 @@
       <updated>1473047666893</updated>
       <workItem from="1473047671569" duration="182000" />
       <workItem from="1473048892248" duration="290000" />
-      <workItem from="1473051127495" duration="4894000" />
+      <workItem from="1473051127495" duration="4921000" />
     </task>
     <task id="LOCAL-00001" summary="test intelliJ">
       <created>1473051307184</created>
@@ -713,11 +713,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473056009101</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added project JavaFX_Practice_01">
+      <created>1473056030800</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1473056030800</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5366000" />
+    <option name="totallyTimeSpent" value="5393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
