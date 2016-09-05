@@ -1,4 +1,8 @@
 package Master;
+/**
+ * Controller for the Master Scene MasterBorderPane
+ * contains methods used to set the MasterContentPane with a new Pane from the ContentPanes package
+ */
 
 import ContentPanes.JavaFX_Practice_01;
 import javafx.scene.control.*;
@@ -40,8 +44,7 @@ public class MasterController extends Master.Main {
     //first implementation
     public void Practice01Click() {
         MasterContentPane= new StackPane();
-        BorderPane pane = new JavaFX_Practice_01().pane;
-        pane.setStyle("-fx-background-color: #111111");
+        BorderPane pane = new JavaFX_Practice_01();
         MasterContentPane.getChildren().add(pane);
         root.setCenter(MasterContentPane);
     }

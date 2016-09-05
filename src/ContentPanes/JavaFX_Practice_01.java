@@ -10,27 +10,15 @@ import javafx.scene.text.Font;
 
 /**
  * Created by user on 9/5/2016.
+ * Create scene with some labels and a button that changes the font color of the labels
  */
-public class JavaFX_Practice_01 {
+public class JavaFX_Practice_01 extends BorderPane{
     //any of the classes in this directory should have some public pane available to slap on the MasterContentPane
-    public BorderPane pane;
+    //public BorderPane pane;
 
     public JavaFX_Practice_01(){
-        try {
-            initializePane();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    private Label[] labels;
-    private Font font;
-    private HBox labelPane;
-
-
-    private void initializePane() {
         font = new Font("Times New Roman", 15);
         labels = new Label[5];
-        pane = new BorderPane();
 
         colorChanger();
 
@@ -41,10 +29,13 @@ public class JavaFX_Practice_01 {
         buttonPane.setAlignment(Pos.BASELINE_CENTER);
         buttonPane.getChildren().addAll(colorChangerButton);
 
-        pane.setBottom(buttonPane);
-        pane.setCenter(labelPane);
-        pane.setStyle("#Master");//Color.WHITE);
+        setStyle("-fx-background-color: #222222");
+        setBottom(buttonPane);
+        setCenter(labelPane);
     }
+    private Label[] labels;
+    private Font font;
+    private HBox labelPane;
 
     private void colorChanger() {
         labelPane = new HBox(10);
@@ -57,6 +48,6 @@ public class JavaFX_Practice_01 {
             labelPane.getChildren().add(label);
             labelPane.setAlignment(Pos.CENTER);
         }
-        pane.setCenter(labelPane);
+        setCenter(labelPane);
     }
 }

@@ -23,6 +23,7 @@ public class Main extends Application {
     public static Pane MasterContentPane;
     static BorderPane root;
     private static Stage window;
+
     @Override
     public void start(Stage primaryStage) throws Exception{
         window=primaryStage;
@@ -35,9 +36,7 @@ public class Main extends Application {
         MasterContentPane= new StackPane();
 
         root.setCenter(MasterContentPane);
-
-        Scene masterScene = new Scene(root);
-        window.setScene(masterScene);
+        window.setScene(new Scene(root,700,700));
         window.show();
     }
     public static void main(String[] args) {

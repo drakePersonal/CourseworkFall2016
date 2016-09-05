@@ -1,4 +1,6 @@
-
+/**
+* Style information for the Master Scene #MasterBorderPane
+*/
 #MasterBorderPane{
     -fx-background-color: #111111;
     -fx-border-insets: 10,10,10,10;
