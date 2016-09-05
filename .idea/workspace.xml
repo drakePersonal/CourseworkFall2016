@@ -125,6 +125,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseworkFall2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseworkFall2016" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -603,7 +617,7 @@
       <updated>1473047666893</updated>
       <workItem from="1473047671569" duration="182000" />
       <workItem from="1473048892248" duration="290000" />
-      <workItem from="1473051127495" duration="249000" />
+      <workItem from="1473051127495" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="test intelliJ">
       <created>1473051307184</created>
@@ -612,11 +626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1473051307184</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test intelliJ2">
+      <created>1473051385791</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1473051385791</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="721000" />
+    <option name="totallyTimeSpent" value="804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -657,7 +678,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test intelliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="test intelliJ" />
+    <MESSAGE value="test intelliJ2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test intelliJ2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
