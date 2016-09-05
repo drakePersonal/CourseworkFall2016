@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04631570-0b08-4b9a-a432-18c477d7b9bd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Master/Main.java" afterPath="$PROJECT_DIR$/src/Master/Main.java" />
-    </list>
+    <list default="true" id="04631570-0b08-4b9a-a432-18c477d7b9bd" name="Default" comment="" />
     <ignored path="CourseworkMasterFall2016.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -581,15 +578,15 @@
       <option name="presentableId" value="Default" />
       <updated>1473047666893</updated>
       <workItem from="1473047671569" duration="182000" />
-      <workItem from="1473048892248" duration="159000" />
+      <workItem from="1473048892248" duration="232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341000" />
+    <option name="totallyTimeSpent" value="414000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
