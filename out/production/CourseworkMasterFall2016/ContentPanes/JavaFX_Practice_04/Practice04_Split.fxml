@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="JavaFX_Practice_04" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="449.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ContentPanes.JavaFX_Practice_04.JavaFX_Practice04_Controller">
+   <children>
+       <Pane id="PathTransitionPane" fx:id="PathTransitionPane" layoutX="26.0" layoutY="22.0" prefHeight="159.0" prefWidth="181.0" />
+       <Pane id="RisingPane" fx:id="RisingPane" layoutX="244.0" layoutY="217.0" prefHeight="159.0" prefWidth="181.0" />
+       <Pane id="FadeTransitionPane" fx:id="FadeTransitionPane" layoutX="26.0" layoutY="217.0" prefHeight="159.0" prefWidth="181.0" />
+       <Pane id="MyClockPane" fx:id="MyClockPane" layoutX="244.0" layoutY="22.0" prefHeight="159.0" prefWidth="181.0" />
+   </children>
+</Pane>
