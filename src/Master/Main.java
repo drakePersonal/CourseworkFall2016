@@ -22,7 +22,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     public static Pane MasterContentPane;
     static BorderPane root;
-    private static Stage window;
+    public static Stage window;
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -34,9 +34,10 @@ public class Main extends Application {
         });
         window.setTitle("Master Control Program");
         MasterContentPane= new StackPane();
-
         root.setCenter(MasterContentPane);
-        window.setScene(new Scene(root,700,700));
+        window.setScene(new Scene(root,900,700));
+        window.setResizable(true);
+        window.sizeToScene();
         window.show();
     }
     public static void main(String[] args) {
